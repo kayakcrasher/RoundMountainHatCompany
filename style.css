@@ -29,3 +29,19 @@ footer{background:#edddc0;border-top:1px solid #d4bd96}
 .detail-grid img{background:#e7d6b7}
 .bag-row{border-color:#d9c4a4}
 #toast{background:#785637}
+
+/* Give the mountain its own unobstructed part of the banner. */
+.hero{background:#705034;overflow:hidden}
+.hero-landscape{position:absolute;inset:0 0 0 auto;width:72%;height:100%;object-fit:cover;object-position:center 42%;z-index:-2}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#705034 0%,rgba(112,80,52,.97) 25%,rgba(112,80,52,.58) 42%,rgba(112,80,52,0) 62%)}
+.hero-content{width:40%}
+.hero h1{font-size:clamp(58px,6vw,88px)}
+@media(max-width:800px){
+ .hero{display:block;padding:0 0 48px;min-height:0}
+ .hero-landscape{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;z-index:0}
+ .hero::before{display:none}
+ .hero::after{z-index:0}
+ .hero-content{position:relative;z-index:1;width:100%;padding:25px 7% 12px}
+ .hero h1{font-size:60px;margin:18px 0}
+ .hero-caption{bottom:18px;right:7%}
+}
