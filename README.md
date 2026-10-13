@@ -24,3 +24,7 @@ All current products, illustrations, and prices are sample content. Replace them
 ## Hosting
 
 Serve this folder with any static host. For GitHub Pages, select Settings → Pages → Deploy from a branch → main → / (root). No build or npm installation is needed.
+
+## Banner treatment
+
+The live banner uses an AI-generated painted adaptation of the Marshall overlook reference photo, with a warmer golden palette. It is an artistic interpretation, not an unedited photograph. The original CC0 reference is retained in assets/marshall-overlook.jpg.
