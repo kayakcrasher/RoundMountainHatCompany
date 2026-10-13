@@ -19,7 +19,7 @@ Edit `catalog.js` with your real products, prices, sizes, images, and each produ
 
 The Square link appears in the product dialog when configured. Square handles the actual checkout and final variation/quantity selection. The preview bag does not transfer to Square. This version does not synchronize Square inventory or create a combined cart checkout. Those features require a server integration and private Square credentials. Never put access tokens in these public files.
 
-All current products, illustrations, and prices are sample content. Replace them before opening orders. The banner photograph shows the Highway 65 scenic overlook south of Marshall, Arkansas. Photo: Brandonrush, “Lower Boston Mountains near Marshall, AR,” Wikimedia Commons, CC0 public domain. Source: https://commons.wikimedia.org/wiki/File:Lower_Boston_Mountains_near_Marshall,_AR.jpg
+All current products, illustrations, and prices are sample content. Replace them before opening orders. The current banner is a warm painted adaptation of the owner-supplied landscape photo.
 
 ## Hosting
 
@@ -27,4 +27,4 @@ Serve this folder with any static host. For GitHub Pages, select Settings → Pa
 
 ## Banner treatment
 
-The live banner uses an AI-generated painted adaptation of the Marshall overlook reference photo, with a warmer golden palette. It is an artistic interpretation, not an unedited photograph. The original CC0 reference is retained in assets/marshall-overlook.jpg.
+The live banner uses an AI-generated painted adaptation of the owner-supplied landscape, with a golden yellow palette and a wide composition. It is an artistic interpretation, not an unedited photograph.
